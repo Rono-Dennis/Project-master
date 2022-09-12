@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.realtimeschedule">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RealTimeSchedule"
+        tools:targetApi="31">
+        <activity
+            android:name=".BookService"
+            android:exported="false" />
+        <activity
+            android:name=".UsersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ServiceActivity"
+            android:exported="false">
+
+        </activity>
+        <activity
+            android:name=".AddNewServiceActivity"
+            android:exported="false">
+
+        </activity>
+        <activity
+            android:name=".AdminAddNewServiceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_photo"
+            android:exported="false" />
+        <activity
+            android:name=".AddService"
+            android:exported="false" />
+        <activity
+            android:name=".AdminTasks"
+            android:exported="false" />
+        <activity
+            android:name=".MenuContainer"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

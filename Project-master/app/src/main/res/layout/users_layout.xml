@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/White">
+
+
+    <RelativeLayout
+        android:id="@+id/e4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignParentTop="true"
+        >
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:text="System Users"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp"
+
+            />
+
+        </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_below="@+id/e4"
+        >
+
+        <TextView
+            android:id="@+id/user_Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="User Name"
+            android:textColor="@color/colorWhite"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/Email"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@+id/user_Name"
+            android:text="Email"
+            android:textColor="@color/colorWhite"
+            android:textSize="14dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/Phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="PhoneNumber"
+            android:textColor="@color/colorWhite"
+            android:textSize="14dp"
+            android:layout_below="@+id/Email"
+
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/User_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="User ID"
+            android:textColor="@color/colorWhite"
+            android:textSize="14dp"
+            android:layout_below="@+id/Phone"
+
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            />
+
+
+
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/cart_product_price"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginLeft="5dp"-->
+        <!--            android:text="Product Price"-->
+        <!--            android:textColor="@color/colorPrimaryDark"-->
+        <!--            android:textSize="14dp"-->
+        <!--            android:textStyle="bold"-->
+        <!--            android:layout_below="@+id/cart_product_quantity"-->
+        <!--            android:gravity="center"-->
+        <!--            android:layout_marginTop="10dp"-->
+        <!--            />-->
+
+
+<!--        <ImageView-->
+<!--            android:layout_below="@id/Email"-->
+<!--            android:id="@+id/label_delete"-->
+<!--            android:layout_width="20dp"-->
+<!--            android:iconTint="@color/colorWhite"-->
+<!--            android:layout_height="20dp"-->
+<!--            android:layout_marginLeft="5dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:src="@drawable/ic_baseline_delete"-->
+<!--            android:layout_alignParentEnd="true"/>-->
+
+        <!--        <Button-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_alignParentEnd="true"-->
+        <!--            android:text="NEXT"-->
+        <!--            android:textSize="20dp"-->
+        <!--            android:textColor="@color/colorWhite"-->
+        <!--            android:background="@color/colorPrimaryDark"-->
+        <!--            android:layout_marginTop="10dp"-->
+        <!--            />-->
+
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

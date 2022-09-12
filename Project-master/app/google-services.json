@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1000165542275",
+    "firebase_url": "https://realtimeschedule-7cc0d-default-rtdb.firebaseio.com",
+    "project_id": "realtimeschedule-7cc0d",
+    "storage_bucket": "realtimeschedule-7cc0d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000165542275:android:74e93110b8b311313dceb6",
+        "android_client_info": {
+          "package_name": "com.example.realtimeschedule"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1000165542275-5puvbcfrtckrsdvckc2qs79b0cpk0vlg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfwI4JKqlLcKrj8HwyZDxg1j7TAcYX-mE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1000165542275-5puvbcfrtckrsdvckc2qs79b0cpk0vlg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

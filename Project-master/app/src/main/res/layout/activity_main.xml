@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="680dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_left_panel"
+                android:padding="15dp">
+
+                <Button
+                    android:id="@+id/About"
+                    android:layout_width="250dp"
+                    android:layout_height="55dp"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/shape_login_button"
+                    android:gravity="center"
+                    android:text="About"
+                    android:textColor="@android:color/background_light"
+                    android:textColorHint="@android:color/holo_purple"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.354" />
+
+                <Button
+                    android:id="@+id/btnServices"
+                    android:layout_width="250dp"
+                    android:layout_height="55dp"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/shape_login_button"
+                    android:gravity="center"
+                    android:text="Services"
+                    android:textColor="@android:color/background_light"
+                    android:textColorHint="@android:color/holo_purple"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/About"
+                    app:layout_constraintVertical_bias="0.132" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

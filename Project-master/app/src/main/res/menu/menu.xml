@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/addService"
+            android:title="Add service"/>
+
+        <item android:title="Delete Services"
+            android:id="@+id/service2"/>
+
+        <item android:title="view users"
+            android:id="@+id/viewUsers"/>
+
+        <item android:title="Bookings"
+            android:id="@+id/bookings"/>
+
+        <item android:title="Schedule"
+            android:id="@+id/schedule"/>
+
+        <item android:title="Edit schedule"
+            android:id="@+id/editSchedule"/>
+
+    </group>
+
+</menu>
