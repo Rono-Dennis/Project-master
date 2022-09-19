@@ -78,8 +78,8 @@ public class ServiceActivity extends AppCompatActivity {
                     @Override
                     public void onClick(View v) {
 
-                        final String  email = "ronodennis580@gmail.com";//vdmvfjtrlgjkgwbe
-                        final String password = "vdmvfjtrlgjkgwbe";//3?3?9!1!2.1.1,8,R
+                        final String  email = "Your email";//
+                        final String password = "password";//
                         String messageToSend = "Hello Sir, Please check the appointments that have been send to you";
                         Properties  properties = new Properties();
                         properties.put("mail.smtp.auth","true");
@@ -97,7 +97,7 @@ public class ServiceActivity extends AppCompatActivity {
                         try {
                             MimeMessage message = new MimeMessage(session);
                             message.setFrom(new InternetAddress(email));
-                            message.setRecipients(MimeMessage.RecipientType.TO, InternetAddress.parse("ronodennis72@gmail.com"));
+                            message.setRecipients(MimeMessage.RecipientType.TO, InternetAddress.parse("recipient"));
                             message.setSubject("Booking appointments");
                             message.setText(messageToSend);
                             Transport.send(message);
