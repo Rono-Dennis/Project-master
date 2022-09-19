@@ -20,8 +20,6 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
-import com.bumptech.glide.Glide;
-import com.example.realtimeschedule.databinding.ActivityMainBinding;
 import com.google.android.gms.tasks.Continuation;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
@@ -51,7 +49,6 @@ public class AddService extends AppCompatActivity {
     private ProgressDialog loadingBar;
     FirebaseStorage storage;
     FirebaseDatabase database;
-    ActivityMainBinding binding;
     ActivityResultLauncher<String> launcher;
     ProgressBar progressBar;
     @Override

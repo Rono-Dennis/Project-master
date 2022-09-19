@@ -6,6 +6,7 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -49,6 +50,14 @@ public class Login extends Activity {
         reg=(Button)findViewById(R.id.register);
 
         admin=(CheckBox) findViewById(R.id.adminCheck);
+
+
+        Uri uri =  getIntent().getData();
+        if (uri!=null){
+            String path = uri.toString();
+            Toast.makeText(this, "path = "+path, Toast.LENGTH_SHORT).show();
+        }
+
         admin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
